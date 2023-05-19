@@ -26,4 +26,6 @@ for country_data in countries_dictionary.values():
     country_population_percentage = (country_population / EU_population) * 100
     country_data['country_population_percentage'] = f'{country_population_percentage:.2f}'
 
+
 print(countries_dictionary)
+# The structure is correct maybe it would be good to use a serializer for better output of the dict data
